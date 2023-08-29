@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mi-proyecto';
+  minombre:string='pepe'
+  edad:number=2
+  sueldos:number[]=[1700,1600,1900]
+  nombres:string[]=['pedro','mario']
+  // mezcla:Array[]=['mario',1]
 }
